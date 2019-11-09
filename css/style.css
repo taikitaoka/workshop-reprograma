@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* BANNER */
+.banner {
+  background-image: url("../img/pics/94236.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 475px;
+}
+
+/* Redes Sociais */
+.redes-sociais_item_facebook,
+.redes-sociais_item_github,
+.redes-sociais_item_linkedin,
+.redes-sociais_item_instagram {
+  background-color: #843030;
+  padding: 2rem;
+}
+
+.redes-sociais_item a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.banner-info {
+  padding-top: 30vh;
+  text-align: center;
+}
+
+.banner-info p {
+  font-family: 'Lato', sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner-info a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  text-decoration: none;
+  background-color: #843030;
+  color:whitesmoke;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+.banner-info a:hover {
+  background-color: darkgray;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  color:whitesmoke;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+p, ul {
+  font-family: 'Lato', sans-serif;
+}
+
+.sobre-mim, .redes-sociais {
+  max-width: 1028px;
+  margin: 0 auto;
+}
+
+.sobre-mim_habilidades {
+  display: flex;
+}
+
+.sobre-mim_habilidades_item {
+  max-width: 30rem;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.sobre-mim_habilidades_titulo {
+  max-width: 30rem;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.sobre-mim_habilidades_titulo a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  text-decoration: none;
+  background-color: #843030;
+  color:whitesmoke;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  float: left;
+  margin-top: 1rem;
+}
+
+.sobre-mim_habilidades_titulo a:hover {
+  background-color: darkgray;
+}
+
+.redes-sociais_item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem; 
+}
+
+.redes-sociais_item img {
+  min-width: 2.5rem;
+}
+
+.footer {
+  text-align: center;
+  margin: 3rem 0;
+}
